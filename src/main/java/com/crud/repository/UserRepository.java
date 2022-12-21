@@ -1,6 +1,6 @@
-package app.user.repository;
+package com.crud.repository;
 
-import app.user.model.User;
+import com.crud.model.User;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 public interface UserRepository extends MongoRepository<User, String>{
